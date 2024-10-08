@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title> <!-- 제목은 영어로 유지 -->
+  <link rel="stylesheet" href="style.css"> <!-- 공통 스타일 -->
+  <link rel="stylesheet" href="project-style.css"> <!-- 프로젝트 전용 스타일 -->
+</head>
+<body>
+  <div class="logo-container">
+    <img src="images/logo.png" alt="로고 자리">
+  </div>
+  <div id="app">
+    <h1>작업 관리 시스템</h1>
+    <div class="button-group">
+      <button id="addBasicTask">일반 작업 추가</button>
+      <button id="addTimedTask">시간 제한 작업 추가</button>
+      <button id="addUrgentTask">긴급 작업 추가</button>
+    </div>
+    <div id="taskList"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

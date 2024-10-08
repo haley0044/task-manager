@@ -1,0 +1,14 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A task manager using TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
